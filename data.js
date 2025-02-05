@@ -245,6 +245,8 @@ const pokemon = [
 // EXCERCISE 8
   game3.party.forEach(pokemon => console.log(pokemon.name));
 
+
+  // EXCERCISE 9
   const ex9 = [
     { id: 1, name: "Bulbasaur", starter: true },
     { id: 4, name: "Charmander", starter: true },
@@ -305,5 +307,3 @@ game.partyCount = function () {
 
 // Call the method and log the result
 console.log(game.partyCount());
-
-//exe15

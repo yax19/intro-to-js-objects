@@ -80,6 +80,7 @@ game.gymStatus = function () {
   console.log(gymTally);
 };
 
+//EXERCISE 15
 // Call the method to check gym status
 game.gyms.forEach(gym => {
   if (gym.difficulty < 8) {
@@ -89,6 +90,7 @@ game.gyms.forEach(gym => {
 
 console.log(game.gyms);
 
+// EXCERCISE 16 SOLUTION
 console.log(game);
 
 
